@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://msislam414-web.github.io/Ciam-Ideal-School/</loc>
-  </url>
+
+<url>
+<loc>https://msislam414-web.github.io/Ciam-Ideal-School/</loc>
+</url>
+
+<url>
+<loc>https://msislam414-web.github.io/Ciam-Ideal-School/about.html</loc>
+</url>
+
+<url>
+<loc>https://msislam414-web.github.io/Ciam-Ideal-School/branches.html</loc>
+</url>
+
+<url>
+<loc>https://msislam414-web.github.io/Ciam-Ideal-School/admission.html</loc>
+</url>
+
+<url>
+<loc>https://msislam414-web.github.io/Ciam-Ideal-School/teachers.html</loc>
+</url>
+
+<url>
+<loc>https://msislam414-web.github.io/Ciam-Ideal-School/gallery.html</loc>
+</url>
+
+<url>
+<loc>https://msislam414-web.github.io/Ciam-Ideal-School/contact.html</loc>
+</url>
+
 </urlset>
