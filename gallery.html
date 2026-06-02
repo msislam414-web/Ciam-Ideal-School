@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Gallery | CIAM Ideal School</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f5f7fa;
+}
+
+header{
+background:#004aad;
+color:white;
+padding:15px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:15px;
+}
+
+.logo img{
+width:70px;
+height:70px;
+border-radius:50%;
+background:white;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:10px;
+font-weight:bold;
+}
+
+.banner{
+background:#004aad;
+color:white;
+text-align:center;
+padding:80px 20px;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+padding:50px 20px;
+max-width:1400px;
+margin:auto;
+}
+
+.gallery img{
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,.2);
+transition:.4s;
+cursor:pointer;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+}
+
+footer{
+background:#002b63;
+color:white;
+text-align:center;
+padding:30px;
+margin-top:50px;
+}
+
+@media(max-width:768px){
+
+header{
+flex-direction:column;
+text-align:center;
+}
+
+}
+
+</style>
+
+</head>
+<body>
+
+<header>
+
+<div class="logo">
+
+<img src="images/logo.jpg">
+
+<div>
+
+<h2>CIAM IDEAL SCHOOL</h2>
+
+<p>Established 2011</p>
+
+</div>
+
+</div>
+
+<nav>
+
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="branches.html">Branches</a>
+<a href="admission.html">Admission</a>
+<a href="teachers.html">Teachers</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a>
+
+</nav>
+
+</header>
+
+<div class="banner">
+
+<h1>School Gallery</h1>
+
+<p>
+Our Activities, Events & Memories
+</p>
+
+</div>
+
+<div class="gallery">
+
+<img src="images/gallery1.jpg">
+<img src="images/gallery2.jpg">
+<img src="images/gallery3.jpg">
+<img src="images/gallery4.jpg">
+<img src="images/gallery5.jpg">
+<img src="images/gallery6.jpg">
+<img src="images/gallery7.jpg">
+<img src="images/gallery8.jpg">
+<img src="images/gallery9.jpg">
+<img src="images/gallery10.jpg">
+<img src="images/gallery11.jpg">
+<img src="images/gallery12.jpg">
+
+</div>
+
+<footer>
+
+<h3>CIAM IDEAL SCHOOL</h3>
+
+<p>
+Quality Education • Moral Values • Modern Learning
+</p>
+
+<br>
+
+<p>📧 ciam.education@gmail.com</p>
+
+<p>📞 01612-107510</p>
+
+<br>
+
+<p>
+© 2026 CIAM IDEAL SCHOOL. All Rights Reserved.
+</p>
+
+</footer>
+
+</body>
+</html>
